@@ -12,3 +12,50 @@ img,
 video {
   display: block;
 }
+
+.heart {
+  color: red;
+}
+.heart.is-white {
+  color: #fff;
+}
+
+.like {
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.like.is-white {
+  color: #fff;
+}
+
+.number {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+.number.is-white {
+  color: #fff;
+}
+
+.container {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+}
+
+.container.is-red {
+  border-radius: 19px;
+  border: 2px solid #f00;
+  background: #f00;
+}
